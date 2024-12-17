@@ -45,8 +45,8 @@ func main() {
 		_, _ = w.Write([]byte(page))
 	})
 
-	log.Println("Serving on http://localhost:8080")
-	if err := http.ListenAndServe(":8080", nil); err != nil {
+	log.Println("Serving on http://localhost:42069")
+	if err := http.ListenAndServe(":42069", nil); err != nil {
 		log.Fatal(err)
 	}
 }
