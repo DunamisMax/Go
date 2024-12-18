@@ -1,0 +1,6 @@
+2024/12/18 15:53:03 [INFO] Server starting on :8080
+2024/12/18 15:53:15 [INFO] User 'DunamisMax' connected.
+2024/12/18 15:53:17 [MESSAGE] DunamisMax: Howdy
+2024/12/18 15:53:27 Read frame error: EOF
+2024/12/18 15:53:27 [INFO] User 'DunamisMax' disconnected.
+2024/12/18 15:53:27 [HTTP] GET /ws 12.445675455s
