@@ -7,7 +7,7 @@ theme = "mytheme"
   [params.author]
     name = "Dunamismax"
     intro = "Hello, I'm DunamisMax!"
-    description = "I'm an IT Profesional who writes about tech, Go, and self-hosting."
+    description = "I'm an IT Professional who writes about tech, Go, and self-hosting."
 
   # Change this section to an array of tables:
   [[params.socialIcons]]
