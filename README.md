@@ -4,6 +4,9 @@ Welcome to my personal Go code repository! Here, I’m learning, experimenting, 
 
 ## Structure
 
+- **dunamismax.com/**
+  Contains my Hugo Blog - dunamismax.com
+
 - **My-code/**
   Contains projects, exercises, and examples that I have written myself. These serve as my personal learning sandbox, demonstrating my growing familiarity with Go’s syntax, idioms, and best practices.
 
