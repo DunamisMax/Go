@@ -37,8 +37,8 @@ func main() {
 
 	mux := http.NewServeMux()
 
-    // Register a wildcard route to catch everything else for 404s:
-    mux.Handle("/", http.HandlerFunc(notFoundHandler))
+	// Register a wildcard route to catch everything else for 404s:
+	mux.Handle("/", http.HandlerFunc(notFoundHandler))
 
 	// Register routes with method and path patterns (Go 1.22+)
 	mux.Handle("GET /", http.HandlerFunc(HomeHandler))
@@ -120,7 +120,7 @@ func HealthHandler(w http.ResponseWriter, r *http.Request) {
 // ListUsersHandler: returns the list of all users
 func ListUsersHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
-		methodNotAllowedHandler(w, r)
+		methodNotAllowedHandler(w)
 		return
 	}
 	userList := make([]User, 0, len(users))
@@ -134,7 +134,7 @@ func ListUsersHandler(w http.ResponseWriter, r *http.Request) {
 // GetUserHandler: returns a single user by ID
 func GetUserHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
-		methodNotAllowedHandler(w, r)
+		methodNotAllowedHandler(w)
 		return
 	}
 
@@ -151,7 +151,7 @@ func GetUserHandler(w http.ResponseWriter, r *http.Request) {
 // Supports both JSON and form-encoded input. For form submission (like from HTML forms or htmx), we parse form values.
 func CreateUserHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
-		methodNotAllowedHandler(w, r)
+		methodNotAllowedHandler(w)
 		return
 	}
 
@@ -193,7 +193,7 @@ func notFoundHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 // methodNotAllowedHandler: custom handler for 405 Method Not Allowed
-func methodNotAllowedHandler(w http.ResponseWriter, r *http.Request) {
+func methodNotAllowedHandler(w http.ResponseWriter) {
 	jsonError(w, http.StatusMethodNotAllowed, "Method not allowed")
 }
 
