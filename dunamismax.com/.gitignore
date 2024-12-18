@@ -1,0 +1,53 @@
+# --------------------------------------
+# Go-Specific Files and Directories
+# --------------------------------------
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+# Uncomment if you vendor your dependencies
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Environment and logs
+.env
+.log
+
+
+# --------------------------------------
+# Hugo-Specific Files and Directories
+# --------------------------------------
+
+# Hugo's generated public site directory
+public/
+
+# Hugo's generated resources (e.g., processed images, minified CSS/JS)
+resources/_gen/
+
+# Hugo build lock file (prevents simultaneous builds)
+.hugo_build.lock
+
+# Hugo cache directory (improves build performance, no need to track)
+.hugo_cache/
+
+
+# --------------------------------------
+# OS / Editor / Tooling Specific
+# --------------------------------------
+
+# macOS Finder files
+.DS_Store
