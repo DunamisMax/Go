@@ -1,0 +1,61 @@
+/*
+  custom.css
+  - Relies on the font link provided in the <head> of your HTML.
+  - Uses Open Sans with fallback fonts for maximum compatibility.
+  - Demonstrates variable font usage with the `.open-sans-<uniquifier>` pattern.
+*/
+
+/* Set a global fallback so the entire site defaults to Open Sans where possible */
+body, html {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  /*
+    Example variable font classes:
+    Replace <uniquifier> with a descriptive term like "body", "heading", or "hero".
+    Adjust `wght` and `wdth` values as needed.
+
+    Range for wght: 300..800
+    Range for wdth: 75..100
+  */
+
+  /* A body text class with normal weight and full width */
+  .open-sans-body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Normal weight */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100, /* normal width */
+      "wght" 400; /* normal weight */
+  }
+
+  /* A heading class with heavier weight */
+  .open-sans-heading {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100, /* normal width */
+      "wght" 700; /* bold weight */
+  }
+
+  /* A class demonstrating a custom <uniquifier> and potentially narrower width and lighter weight */
+  .open-sans-narrow-light {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300; /* Light weight */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 90, /* slightly narrower */
+      "wght" 300; /* lighter weight */
+  }
+
+  /*
+    Apply these classes to elements in your templates or content to leverage the variable styles:
+    e.g. <p class="open-sans-body">Some body text</p>
+         <h1 class="open-sans-heading">A Heading</h1>
+         <span class="open-sans-narrow-light">Narrow light text</span>
+  */

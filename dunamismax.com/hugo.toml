@@ -1,21 +1,7 @@
-baseURL = "https://dunamismax.com/"
-languageCode = "en-us"
-title = "dunamismax blog"
-theme = "mytheme"
-
-[params]
-  [params.author]
-    name = "Dunamismax"
-    intro = "Hello, I'm DunamisMax!"
-    description = "I'm an IT Professional who writes about tech, Go, and self-hosting."
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/dunamismax"
-
-  [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/dunamismax"
+baseURL = 'https://dunamismax.com/'
+languageCode = 'en-us'
+title = 'dunamismax.com'
+theme = "hugo-paper"
 
 [menu]
   [[menu.main]]
@@ -25,5 +11,10 @@ theme = "mytheme"
 
   [[menu.main]]
     name = "Blog"
-    url = "/posts/"
+    url = "/blog/"
     weight = 2
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
