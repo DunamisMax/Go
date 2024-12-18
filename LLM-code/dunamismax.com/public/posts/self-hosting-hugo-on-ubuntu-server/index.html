@@ -1,12 +1,13 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en-us"><head><meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">dunamismax blog | dunamismax blog</title>
-<meta property="og:title" content="dunamismax blog | dunamismax blog" />
-<meta name="twitter:title" content="dunamismax blog | dunamismax blog" />
-<meta itemprop="name" content="dunamismax blog | dunamismax blog" />
-<meta name="application-name" content="dunamismax blog | dunamismax blog" />
+<title itemprop="name">Self Hosting Hugo on Ubuntu Server | dunamismax blog</title>
+<meta property="og:title" content="Self Hosting Hugo on Ubuntu Server | dunamismax blog" />
+<meta name="twitter:title" content="Self Hosting Hugo on Ubuntu Server | dunamismax blog" />
+<meta itemprop="name" content="Self Hosting Hugo on Ubuntu Server | dunamismax blog" />
+<meta name="application-name" content="Self Hosting Hugo on Ubuntu Server | dunamismax blog" />
 <meta property="og:site_name" content="" />
 
 <meta name="description" content="">
@@ -17,34 +18,82 @@
 <meta property="og:locale" content="en-us" />
 <meta name="language" content="en-us" />
 
-  <link rel="alternate" hreflang="en" href="https://dunamismax.com/" title="" />
+  <link rel="alternate" hreflang="en" href="https://dunamismax.com/posts/self-hosting-hugo-on-ubuntu-server/" title="" />
 
 
 
 
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2024-12-18T18:54:18Z />
+    <meta property="article:published_time" content=2024-12-18T18:54:18Z />
+    <meta property="og:url" content="https://dunamismax.com/posts/self-hosting-hugo-on-ubuntu-server/" />
+
+    
+    <meta property="og:article:author" content="Dunamismax" />
+    <meta property="article:author" content="Dunamismax" />
+    <meta name="author" content="Dunamismax" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Self Hosting Hugo on Ubuntu Server",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2024-12-18",
+        "description": "",
+        "wordCount":  142 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2024-12-18",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "dunamismax blog"
+        }
+    }
+    </script>
 
 
 <meta name="generator" content="Hugo 0.129.0">
 
     
-    <meta property="og:url" content="https://dunamismax.com/">
+    <meta property="og:url" content="https://dunamismax.com/posts/self-hosting-hugo-on-ubuntu-server/">
   <meta property="og:site_name" content="dunamismax blog">
-  <meta property="og:title" content="dunamismax blog">
+  <meta property="og:title" content="Self Hosting Hugo on Ubuntu Server">
+  <meta property="og:description" content="Getting my Hugo-powered website running on my Ubuntu server was surprisingly straightforward. I started by installing Hugo, then used the hugo new site command to set up a basic site framework. After selecting a theme, I tweaked my config.toml file and created my first Markdown post.
+Next, I generated the static pages with a simple hugo command. The final step was serving the site behind Nginx—no complicated web apps or extra dependencies needed.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-18T18:54:18+00:00">
+    <meta property="article:modified_time" content="2024-12-18T18:54:18+00:00">
 
 
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="dunamismax blog">
+  <meta name="twitter:title" content="Self Hosting Hugo on Ubuntu Server">
+  <meta name="twitter:description" content="Getting my Hugo-powered website running on my Ubuntu server was surprisingly straightforward. I started by installing Hugo, then used the hugo new site command to set up a basic site framework. After selecting a theme, I tweaked my config.toml file and created my first Markdown post.
+Next, I generated the static pages with a simple hugo command. The final step was serving the site behind Nginx—no complicated web apps or extra dependencies needed.">
 
 
     
 
-    <link rel="canonical" href="https://dunamismax.com/">
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="dunamismax blog">
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="dunamismax blog">
+    <link rel="canonical" href="https://dunamismax.com/posts/self-hosting-hugo-on-ubuntu-server/">
     <link href="/style.min.f3f1b1224f0a66d6fddfd602a8fa12f64e615faec19fa3cb1e5f4d377b6be3a4.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -77,7 +126,7 @@
 
     
 </head>
-<body data-theme="auto" class="notransition">
+<body data-theme = "" class="notransition">
 
 <script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
 
@@ -132,40 +181,30 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper">
-        
 
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Self Hosting Hugo on Ubuntu Server</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-12-18T18:54:18&#43;00:00" itemprop="datePublished"> Dec 18, 2024 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>Getting my Hugo-powered website running on my Ubuntu server was surprisingly straightforward. I started by installing Hugo, then used the <code>hugo new site</code> command to set up a basic site framework. After selecting a theme, I tweaked my <code>config.toml</code> file and created my first Markdown post.</p>
+<p>Next, I generated the static pages with a simple <code>hugo</code> command. The final step was serving the site behind Nginx—no complicated web apps or extra dependencies needed. Once the reverse proxy and SSL were in place, I pointed my domain at this server. Now, my website is up, secure, and fully self-hosted.</p>
+<p>This quick process showed me how easy it is to manage a blog without relying on heavy frameworks. With Hugo’s simplicity, it feels like I finally have full control over my content, from the command line all the way to a live, public site.</p>
 
-<div class="author">
-    
-    <h2 class="author-name">Hello, I&#39;m DunamisMax!</h2>
-    <p class="author-bio">I&#39;m an IT Professional who writes about tech, Go, and self-hosting.</p>
+            </div>
+        </article></main>
 </div>
-
-        <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts"></h3>
-            
-            
-            
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/self-hosting-hugo-on-ubuntu-server/">Self Hosting Hugo on Ubuntu Server</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2024-12-18T18:54:18Z">
-        18 Dec 2024
-        
-    </time>
-</article>
-
-            
-            
-        </main>
-    </div><footer class="footer">
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
@@ -207,5 +246,4 @@ stroke-linejoin="round" class="feather feather-home">
     
 
 </body>
-
 </html>
