@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dunamismax blog</title>
+    <link>https://dunamismax.com/</link>
+    <description>Recent content on dunamismax blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Dec 2024 18:54:18 +0000</lastBuildDate><atom:link href="https://dunamismax.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://dunamismax.com/posts/my-first-post/</link>
+      <pubDate>Wed, 18 Dec 2024 18:54:18 +0000</pubDate>
+      
+      <guid>https://dunamismax.com/posts/my-first-post/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
