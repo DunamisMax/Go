@@ -23,8 +23,8 @@ theme = 'hugo-paper'
   bio = 'IT Director learning software engineering with Go'
 
   # Social links
-  github = 'DunamisMax'                      # github.com/DunamisMax
-  bluesky = 'dunamismax.bsky.social'         # https://bsky.app/profile/dunamismax.bsky.social
+  github = 'DunamisMax'
+  bluesky = 'dunamismax.bsky.social'
 
   # Home page avatar
   avatar = '/images/avatar.png'
@@ -32,6 +32,11 @@ theme = 'hugo-paper'
   # Misc settings
   disablePostNavigation = true
   monoDarkIcon = true
-  math = true                # enable KaTeX math typesetting globally
+  math = true
   localKatex = false
-  favicon = '/images/favicon.ico'
+  favicon = '/favicon.ico'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

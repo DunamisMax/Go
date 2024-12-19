@@ -1,5 +1,6 @@
----
-title: "My First Post"
-date: 2024-12-18T12:00:00Z
----
++++
+title = "My First Post"
+date = "2024-12-18T12:00:00Z"
+draft = false
++++
 This is my first post using Hugo Paper and Open Sans font!

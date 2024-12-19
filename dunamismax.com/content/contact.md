@@ -1,4 +1,8 @@
----
-title: "Contact"
----
-Feel free to contact me at [dunamismax@tutamail.com](mailto:dunamismax@tutamail.com).
++++
+title = "Contact"
+draft = false
++++
+
+## Get in Touch
+
+I'd love to hear from you! Shoot me an email at <dunamismax@tutamail.com>
