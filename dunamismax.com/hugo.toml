@@ -5,7 +5,7 @@ theme = 'hugo-paper'
 
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Blog"
     url = "/"
     weight = 1
 
