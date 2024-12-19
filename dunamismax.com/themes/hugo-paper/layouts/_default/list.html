@@ -18,10 +18,11 @@
 <!-- avatar -->
 {{ if and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) }}<!---->
 
-{{ $avatar_url := $.Scratch.Get "avatar_url" }}<!---->
+{{ $avatar_url := .Site.Params.avatar }}
 {{ if or $avatar_url site.Params.name }}
 <div class="-mt-2 mb-12 flex items-center">
   {{ if $avatar_url }}
+    <!-- Use avatar_url directly from params -->
   <div
     class="ltr:-ml-1 rtl:-mr-1 ltr:mr-5 rtl:ml-5 h-24 w-24 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-3 dark:!bg-white/90"
   >

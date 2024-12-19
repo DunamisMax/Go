@@ -1,7 +1,7 @@
 baseURL = 'https://dunamismax.com/'
 languageCode = 'en-us'
 title = 'dunamismax.com'
-theme = "hugo-paper"
+theme = 'hugo-paper'
 
 [menu]
   [[menu.main]]
@@ -13,3 +13,25 @@ theme = "hugo-paper"
     name = "Contact"
     url = "/contact/"
     weight = 2
+
+[params]
+  # color style options: linen, wheat, gray, light
+  color = 'linen'
+
+  # Social & identity
+  name = 'DunamisMax'
+  bio = 'IT Director learning software engineering with Go'
+
+  # Social links
+  github = 'DunamisMax'                      # github.com/DunamisMax
+  bluesky = 'dunamismax.bsky.social'         # https://bsky.app/profile/dunamismax.bsky.social
+
+  # Home page avatar
+  avatar = '/images/avatar.png'
+
+  # Misc settings
+  disablePostNavigation = true
+  monoDarkIcon = true
+  math = true                # enable KaTeX math typesetting globally
+  localKatex = false
+  favicon = '/images/favicon.ico'
